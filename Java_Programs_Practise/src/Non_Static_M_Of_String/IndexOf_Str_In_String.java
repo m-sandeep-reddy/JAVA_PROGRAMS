@@ -7,6 +7,7 @@ public class IndexOf_Str_In_String {
 		String s = "vasikar robo";
 		int a = s.indexOf("robo");
 		System.out.println(a);
+		System.out.println(s.indexOf("ro"));
 
 	}
 

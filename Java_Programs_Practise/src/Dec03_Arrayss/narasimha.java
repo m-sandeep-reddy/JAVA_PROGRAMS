@@ -13,6 +13,11 @@ public class narasimha {
 		System.out.println(ss1==ss2);//false
 		System.out.println(ss1.equals(ss2));//true
 		System.out.println(ss1.equalsIgnoreCase(ss2));//truue
+		
+		String n1 = "sandeep";
+		String n2 = "sandeep";
+		System.out.println(n1==n2);//true
+		System.out.println(n1.equals(n2));//true
 	}
 
 }

@@ -4,8 +4,8 @@ public class CompareTo_String {
 
 	public static void main(String[] args) {
 		
-		String s = "saNdeep";
-		String a = "Sandeep";
+		String s = "vin";
+		String a = "vin";
 		
 		System.out.println(s.compareTo(a));
 		System.out.println(s.compareToIgnoreCase(a));

@@ -10,31 +10,31 @@ public class Split_String_To_String_Array {
 		for(int i =0; i<a.length ; i++) {
 			System.out.println(a[i]);
 		}
-		System.out.println("hii");*/
+		System.out.println(a.length);*/
 		
 		/*String s = " ,ab,bc,de,fg,ik,";
-		String [] a = s.split(",",-1);
+		String [] a = s.split(",",0);
 		
 		for(int i =0; i<a.length ; i++) {
 			System.out.println(a[i]);
 		}
-		System.out.println("hii");*/
+		System.out.println(a.length);*/
 		
-		String s = "hixyzwelecomexyztoxyzmyxyzhome";
+		/*String s = "hixyzwelecomexyztoxyzmyxyzhome";
 		String [] a = s.split("xyz",0);
 		
 		for(int i =0; i<a.length ; i++) {
 			System.out.println(a[i]);
 		}
-		System.out.println("hii");
+		System.out.println("hii");*/
 		
-		/*String s = "my name is sandeep reddy presently i am studying";
+		String s = "my name is sandeep reddy presently i am studying";
 		String [] a = s.split("[a \\ e \\ i \\ o \\ u]");
 		
 		for(int i =0; i<a.length ; i++) {
 			System.out.println(a[i]+" "+i);
 		}
-		System.out.println("hii");*/
+		System.out.println(a.length);
 	}
 
 }

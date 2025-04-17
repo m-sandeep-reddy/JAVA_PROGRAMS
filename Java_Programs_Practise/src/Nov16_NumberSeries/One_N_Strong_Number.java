@@ -12,7 +12,7 @@ public class One_N_Strong_Number {
 		for(int i =1;i<=n;i++)
 		{
 			int temp = i;
-			int num =i;
+			int num = i;
 			int sum = 0;
 			while(num>0)
 			{

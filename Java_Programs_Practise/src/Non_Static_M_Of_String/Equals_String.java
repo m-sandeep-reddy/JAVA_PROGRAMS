@@ -6,9 +6,13 @@ public class Equals_String {
 		
 		String a = "sandy";
 		String b = "sandy";
+		String c = new String("sandy");
 		
 		System.out.println(a.equals(b));
 		System.out.println(a==b);
+		
+		System.out.println(a.equals(c));
+		System.out.println(a==c);
 
 	}
 

@@ -7,7 +7,7 @@ public class Nth_Largest_Without_Sorting {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int [] a = {50,40,20,30,10};
+		int [] a = {35,25,45,50,40,20,30,10};
 		
 		System.out.println("Enter the N th largest element \nto be found in array between 1 to "+a.length);
 		int max = sc.nextInt();

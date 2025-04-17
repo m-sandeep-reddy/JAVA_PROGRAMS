@@ -27,15 +27,9 @@ public class StrongNumMethod {
 			sum = sum + fact;
 			n = n/10;
 		}
-		
 			if(temp == sum)
-			{
 				return 1;
-			
-			}
 			else
-			{
 				return -1;
-			}
 	}	
 }

@@ -15,6 +15,12 @@ public class HashCode_String {
 		
 		System.out.println(c.hashCode());
 		System.out.println(d.hashCode());
+		
+		String e = new String("hi");
+		String f = new String("hi");
+		
+		System.out.println(c.hashCode());
+		System.out.println(d.hashCode());
 	}
 
 }

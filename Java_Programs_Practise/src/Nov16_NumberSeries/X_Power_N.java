@@ -17,7 +17,7 @@ public class X_Power_N {
 		{
 			power = power*x;
 		}
-		System.out.println(x+" power "+y+" is: "+power);
+		System.out.println(x+" power "+y+" is : "+power);
 
 	}
 

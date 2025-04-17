@@ -11,12 +11,12 @@ public class Replacing_Char_In_String_Using_Built_In_Method {
 			char ch ='s';
 			String k = "k";
 
-			/*s1 = s1.replace('a', ch);
+			s1 = s1.replace('a', ch);
 			System.out.println(s1);
-			s1 = s1.replace(" ", "-");
-			System.out.println(s1);*/
+			s1 = s1.replace("b", "BBB");
+			System.out.println(s1);
 			
-			s1 = s1.replaceAll("abc", "aaaa");
+			s1 = s1.replaceAll("s", "aaaa");
 			System.out.println(s1);
 	}
 

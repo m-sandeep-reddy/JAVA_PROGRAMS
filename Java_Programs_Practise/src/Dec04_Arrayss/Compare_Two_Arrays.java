@@ -12,7 +12,7 @@ public class Compare_Two_Arrays {
 			int count = 0;
 			for(int i = 0 ; i<a.length ; i++)
 			{
-				if(a[i] != b[i])
+				if(a[i] == b[i])
 					count++;
 				//if(a[i] == b[i])
 				//	c++;
@@ -21,10 +21,10 @@ public class Compare_Two_Arrays {
 			if(count == a.length)	// c=a.length
 				System.out.println("Similar Arrays");
 			else
-				System.out.println("Not Similar Arrays");
+				System.out.println("Not Similar Arrays by values");
 		}
 		else
-			System.out.println("Not Similar Arrays");
+			System.out.println("Not Similar Arrays by length");
 		
 
 	}

@@ -8,7 +8,7 @@ public class Binary_Search_Key_Element {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		int a[] = {10,30,50,20,40,80,60,70,90};
+		int a[] = {1,2,3,4,5,6,7,8};
 		Arrays.sort(a);
 		System.out.println("Enter the element to be searched");
 		int key = sc.nextInt();

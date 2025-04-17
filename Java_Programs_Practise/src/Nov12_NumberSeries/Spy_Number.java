@@ -11,8 +11,8 @@ public class Spy_Number {
 		int n = sc.nextInt();
 		
 		int temp = n;
-		int sum =0;
-		int prod =1;
+		int sum = 0;
+		int prod  =1;
 		while(n>0)
 		{
 			int rem = n % 10;

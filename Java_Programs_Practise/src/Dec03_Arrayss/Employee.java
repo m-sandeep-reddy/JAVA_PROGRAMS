@@ -16,10 +16,8 @@ public class Employee {
 		this.sal = sal;
 	}
 	
-	public String toString()	
-	{
-		return "Employee [ name = "+ name + ", id = "+id+", sal = "+sal +" ]";
-	}
+	//public String toString()	{
+		//return "Employee [ name = "+ name + ", id = "+id+", sal = "+sal +" ]";}
 	
 
 }

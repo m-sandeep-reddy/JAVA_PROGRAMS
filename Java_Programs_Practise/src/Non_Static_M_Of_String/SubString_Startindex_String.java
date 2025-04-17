@@ -8,8 +8,9 @@ public class SubString_Startindex_String {
 		String a = "reddy";
 		s= s+a;
 		a = s.substring(0,s.length()-a.length());
-		//System.out.println(a);
+		System.out.println(a);
 		System.out.println(s.substring(a.length()));
+		System.out.println(s.substring(1, 2));
 		//System.out.println(s);
 
 	}

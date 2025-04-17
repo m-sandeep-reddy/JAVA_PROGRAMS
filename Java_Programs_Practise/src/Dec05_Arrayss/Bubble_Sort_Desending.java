@@ -8,8 +8,8 @@ public class Bubble_Sort_Desending {
 		
 		System.out.println("Before sorting the Elements in the array list are");
 		for(int i = 0 ; i <a.length ; i++)
-			System.out.print
-			(a[i]+" ");
+			System.out.print(a[i]+" ");
+		
 		for(int i = 0 ; i <a.length-1 ; i++)
 		{
 			for(int j = 0 ; j <a.length-1 ; j++)
@@ -22,10 +22,10 @@ public class Bubble_Sort_Desending {
 				}
 			}
 		}
-		System.out.println("\nAfter sorting the Elements in the array list are");
+		
+		System.out.println("\n\nAfter sorting in desending array list are");
 		for(int i = 0 ; i <a.length ; i++)
-			System.out.print
-			(a[i]+" ");
+			System.out.print(a[i]+" ");
 
 	}
 

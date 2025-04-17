@@ -17,13 +17,13 @@ public class Nth_Largest_In_Array {
 		if(max<=a.length)
 		{
 			if(max == 1)
-				System.out.println("The "+max+" st largest element in the array is : "+a[a.length-1]);
+				System.out.println("The "+max+" st largest element in the array is : "+a[a.length-max]);
 			else if(max == 2 )
-				System.out.println("The "+max+" nd largest element in the array is : "+a[a.length-1]);
-			else if(max == 3 ||max == 4)
-				System.out.println("The "+max+" rd largest element in the array is : "+a[a.length-1]);
+				System.out.println("The "+max+" nd largest element in the array is : "+a[a.length-max]);
+			else if(max == 3)
+				System.out.println("The "+max+" rd largest element in the array is : "+a[a.length-max]);
 			else
-				System.out.println("The "+max+" th largest element in the array is : "+a[a.length-1]);
+				System.out.println("The "+max+" th largest element in the array is : "+a[a.length-max]);
 		}
 		else
 			System.out.println("Enter the range in between 1 to "+a.length+" only");

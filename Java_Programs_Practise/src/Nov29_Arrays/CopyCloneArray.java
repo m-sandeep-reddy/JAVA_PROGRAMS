@@ -18,13 +18,18 @@ public class CopyCloneArray {
 		
 	}
 	
-	int [] copy = a.clone();
+	int [] copy = new int[a.length];
 	
-	System.out.println("Elements of new array are : ");
 	for(int i = 0 ;i<copy.length;i++)
 	{
-		System.out.print(copy[i]+" ");
+		copy[i]=a[i];
 	}
+	
+	System.out.println("Elements of new array are : ");
+		for(int i = 0 ;i<copy.length;i++)
+		{
+			System.out.print(copy[i]+" ");
+		}
 	
 	}
 }

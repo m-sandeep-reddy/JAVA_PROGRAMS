@@ -8,12 +8,11 @@ public class Bubble_Sort {
 		
 		System.out.println("Before sorting the Elements in the array list are");
 		for(int i = 0 ; i <a.length ; i++)
-			System.out.print
-			(a[i]+" ");
+			System.out.print(a[i]+" ");
 		
 		for(int i = 0 ; i <a.length-1 ; i++)
 		{
-			for(int j = 0 ; j <a.length-1 ; j++)
+			for(int j = 0 ; j <a.length-1-i; j++)
 			{
 				if(a[j] > a[j+1])
 				{

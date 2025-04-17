@@ -20,7 +20,7 @@ public class Nth_Smallest_In_Array {
 				System.out.println("The "+min+" st Smallest element in the array is : "+a[min-1]);
 			else if(min == 2 )
 				System.out.println("The "+min+" nd Smallest element in the array is : "+a[min-1]);
-			else if(min == 3 ||min == 4)
+			else if(min == 3 )
 				System.out.println("The "+min+" rd Smallest element in the array is : "+a[min-1]);
 			else
 				System.out.println("The "+min+" th Smallest element in the array is : "+a[min-1]);

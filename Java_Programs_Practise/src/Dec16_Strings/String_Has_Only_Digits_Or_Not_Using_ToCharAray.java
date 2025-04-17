@@ -11,16 +11,20 @@ public class String_Has_Only_Digits_Or_Not_Using_ToCharAray {
 				+ "\nonly digits or not");
 		String s = sc.next();
 		char [] ch = s.toCharArray();
-		int count  =1;
+		int count  =0;
+		
 		for(int i = 0; i<ch.length ; i++)
 		{
-			if(ch[i] >= '0' && ch[i] <= '9') {}
+			if(ch[i] >= '0' && ch[i] <= '9') 
+			{
+				//count++;
+			}
 			else {
 				count++;
 				break;
 			}	
 		}
-		if(count == 1)
+		if(count == 0)
 			System.out.println("String contains only digits");
 		else
 			System.out.println("String contains elements other than digits");

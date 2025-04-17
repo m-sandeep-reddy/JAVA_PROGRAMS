@@ -9,8 +9,8 @@ public class Factorial_Without_Loops {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter an poitive number");
 		int x =sc.nextInt();
-	
-		print(x,1);
+		int fact = 1;
+		print(x,fact);
 	}
 	
 	public static void print(int a , int fact)
