@@ -34,9 +34,9 @@ public class Add_One_Element_Into_array {
 	{
 	
 		int [] res = new int[a.length+1];
+		res[index] = element;
 		for(int i = 0 ; i<a.length ; i++)
 		{
-			res[index] = element;
 			if(i<index)
 			{
 				res[i] = a[i];
